@@ -23,19 +23,19 @@ function areaCalculations(){
 	resultElem.innerHTML += "<p>Ellipsens area: " + area + " m<sup>2</sup></p>";
 
 
-	//Arean av en triangel.
+	
 	area = length * width / 2;
 	resultElem.innerHTML += "<p>Triangelns area: " + area + " m<sup>2</sup></p>";
 
-	//Rektangelns area om längden skulle vara 5 meter längre än vad som anges i textfältet.
+	
 	area = (length + 5) * width;
 	resultElem.innerHTML += "<p>Rektangelns area om längd ökar med 5 meter: " + area + " m<sup>2</sup></p>";
 
-	//Ellipsens area om längden skulle ökas med 50%.
+	
 	area = 3.14 * (length * 1.5) * width / 4;
 	resultElem.innerHTML += "<p>Ellipsens area om längd ökar 50%: " + area + " m<sup>2</sup></p>";
 
-	//Triangelns area angivet i kvadratfot istället för kvadratmeter. (1 meter = 3.28 fot)
+	
 	area = (length * 3.28) * (width * 3.28) / 2;
 	resultElem.innerHTML += "<p>Triangelns area i fot: " + area + " ft<sup>2</sup></p>";
 
